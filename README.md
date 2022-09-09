@@ -32,3 +32,8 @@ You can run using,
 ```
 docker run -e AWS_ACCESS_KEY_ID={your access key id} -e AWS_SECRET_ACCESS_KEY={your secret access key} -e AWS_REGION={aws region} orphan-finder
 ```
+
+### Scraping Unused Resources & Viewing the Prometheus Metrics
+```
+localhost:9169/metrics
+```
